@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(0, 0, 0); */
+  /* color: white; */
+}
+
+header, footer {
+  background-color: #1c499f;
+  color: white;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 1em;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 1em;
+}
+
+footer {
+  margin-top: 2em;
+}
+
+.footer {
+  display: flex;
+  justify-content :center;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mu-logo {
+  margin-left: 1em;
+  height: 65px;
+  width: 350px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.mu-img-logo {
+  height: 60px;
+  width: 300px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-nam {
+  color: rgb(255, 94, 0);
+  font-size: 40px;
+}

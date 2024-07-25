@@ -1,0 +1,55 @@
+.home-container {
+    text-align: center;
+    margin: 5px;
+  }
+  
+  .welcome-message {
+    position: relative;
+    width: 100%;
+    height: 400px;  /* Adjust height to fit your needs */
+    background: url('https://www.mangalayatan.in/department/images/slide1.jpg') no-repeat center center/cover;  /* Background image */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;  /* Ensure no overflow from the message-overlay */
+  }
+  
+  .message-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);  /* Dark overlay for better text readability */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+    box-sizing: border-box;  /* Ensure padding and border are included in the total width and height */
+  }
+  
+  .welcome-message h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .welcome-message .intro-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-message .praise-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .welcome-message strong {
+    color: #ffeb3b;
+  }
+  
