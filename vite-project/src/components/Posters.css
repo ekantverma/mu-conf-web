@@ -44,12 +44,26 @@
     margin-bottom: 25px;
 }
 
-.conf-imgs{
+.conf-img img {
+    height: 400px;
+    width: 550px;
+    border-radius: 5%;
+    margin-bottom: 25px;
+    transition: transform 0.3s ease; /* Smooth zoom transition */
+}
+
+.conf-img img:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.conf-imgs {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
+
+
 
 .conf-imgs img {
     border: 1px solid black;
@@ -57,3 +71,141 @@
     height: 300px;
     width: 450px;
 }
+
+.org-names {
+    height: 100%px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 1em;
+    color: white;
+    background-color: rgba(28, 74, 159, 0.7);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* .wal-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    overflow: hidden; /* Ensures the image stays within the container */
+/* } */
+
+/* .wal-img img {
+    height: 380px;
+    width: 500px;
+    border-radius: 10px;
+    padding-top: 10px;
+    transition: transform 0.5s ease; /* Smooth transition for zoom effect */
+/* } */
+
+/* .wal-img img:hover {
+    transform: scale(1.03); /* Zoom effect */
+/* }   */ 
+
+.wal-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    height: 380px; /* Match the image height */
+    width: 500px; /* Match the image width */
+    margin-top: 10px;
+    margin-right: 30px;
+    justify-content: space-between;
+}
+
+.wal-img img {
+    height: 100%; /* Image height fills the container */
+    width: 100%; /* Image width fills the container */
+    border-radius: 10px; /* Rounded corners for the image */
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Smooth transition for hover effects */
+}
+
+.wal-img img:hover {
+    transform: scale(1.07); /* Slight zoom effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.org-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.org {
+    color: #ffeb3b;
+}
+
+.org-dep {
+    color: #ff9800;
+    /* color: rgb(244, 79, 79); */
+    padding-bottom: 0;
+}
+
+.org-fac {
+    color: #ff9800;
+    padding-bottom: 0;
+}
+
+.org-clg {
+    color : #0f2e68;
+}
+
+/* suppotors name  */
+
+.conf-footer {
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 1rem;
+    margin-bottom: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.sponsors {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.sponsors h2 {
+    color: #1c499f;
+}
+
+.sponsor-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sponsor {
+    text-align: center;
+    margin: 1rem;
+}
+
+.sponsor img {
+    height: 100px;
+    width: auto;
+    border-radius: 5%;
+    margin-bottom: 0.5rem;
+}
+
+

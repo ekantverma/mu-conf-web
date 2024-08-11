@@ -1,3 +1,106 @@
-.faculti-main{
-    height: 350px;
+.fac-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.fac-positions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+    background-color: #F3F3F3;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    padding-top: 10px;
+    transition: transform 0.3s;
+    transform: scale(1);
+    transform: scale(1.05);
+
+}
+
+.fac-det {
+    margin-top: 10px;
+    font-size: 16px;
+    /* background-color: #DBDCDC; */
+    background-color: #F3F3F3;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cards-show {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fac-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 285px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-bottom: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.fac-img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius:5px ;
+}
+
+.fac-name {
+    font-size: 18px;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+}
+
+.fac-stage {
+    font-size: 16px;
+    /* margin-top: 5px; */
+    color: #666;
+}
+
+.pos-name {
+    background-color: #ababab;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fac-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.fac-positions .pos-name {
+    background-color: #333;
+    color: #fff;
+}
+
+.pos-name {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #1c499f;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+
 }
