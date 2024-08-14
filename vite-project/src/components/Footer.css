@@ -1,64 +1,54 @@
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  /* position: fixed; */
+.animated-footer {
+  background-color: #1c499f;
+  color: white;
+  padding: 20px;
   position: relative;
-  bottom: 0;
-  left: 0;
-  padding: 5px;
-  /* width: 100%; */
+  z-index: 1;
+  animation: fadeIn 1s ease-in-out;
+  margin-top: 10px;
 }
 
 .footer-content {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ccc;
 }
 
-.footer-links a {
-  color: #edcc37;
+.university-details, .developer-details {
+  flex: 1;
+  padding: 10px;
+}
+
+.university-details ul, .developer-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.university-details a, .developer-details a {
+  color: #ffcc00;
   text-decoration: none;
-  margin: 0.5rem 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  transition: color 0.3s ease-in-out;
 }
 
-.footer-links a:hover {
-  text-decoration: underline;
+.university-details a:hover, .developer-details a:hover {
+  color: #fff;
 }
 
-.developer-info {
-  color: #edcc37;
-  text-decoration: none;
-  margin: 0.5rem 1rem;
-}
-
-.footer-developer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  margin-left: 100px;
-}
-
-.footer-developer a{
-  color: #edcc37;
-  text-decoration: none;
-}
-
-.footer-bottom {
-  margin-top: 1rem;
-  width: 100%;
+.copyright {
   text-align: center;
+  padding-top: 10px;
+  animation: slideInUp 1s ease-in-out;
 }
-/* to saperator copyright in next line */
 
-.footer-bottom .social-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInUp {
+  from { transform: translateY(50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
 }

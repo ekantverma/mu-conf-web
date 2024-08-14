@@ -1,4 +1,104 @@
-.contact-main {
-    height: 350px;
-    color: black;
+.contact-page {
+    padding: 50px;
+    background-color: #1c499f;
+    color: white;
+    border-radius: 10px;
+    animation: fadeIn 1.5s ease-in-out;
+    margin-top: 10px;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-header h1 {
+    font-size: 3rem;
+    animation: slideInLeft 1.5s ease-in-out;
+}
+
+.contact-header p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    animation: slideInRight 1.5s ease-in-out;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-info, .contact-form {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 300px;
+    max-width: 48%;
+}
+
+.contact-info h2, .contact-form h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    animation: zoomIn 1s ease-in-out;
+}
+
+.contact-info p, .contact-form input, .contact-form textarea {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-form button {
+    background-color: #ffa500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: pulse 1.5s infinite;
+}
+
+.contact-form button:hover {
+    background-color: #e69500;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+
+@keyframes slideInRight {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+}
+
+@keyframes zoomIn {
+    from { transform: scale(0); }
+    to { transform: scale(1); }
+}
+
+@keyframes fadeInUp {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
 }

@@ -83,6 +83,36 @@
     }
 }
 
+.about-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px; /* Define the width you want */
+    height: 300px; /* Define the height you want */
+    overflow: hidden; /* Ensures no overflow from the container */
+}
+
+.about-video iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; /* Adjust as needed */
+    border: none; /* Remove border */
+}
+
+.vision-img{
+    width: 350px;
+    height: 270px;
+} 
+
+.iden-img {
+    width: 370px;
+    height: 280px;
+}
+
+.conf-pic {
+    width: 370px;
+    height: 280px;
+}
 
 
 

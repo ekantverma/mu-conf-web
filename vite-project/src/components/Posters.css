@@ -177,6 +177,7 @@
     margin-bottom: 0;
     bottom: 0;
     left: 0;
+    width: 100%;
 }
 
 .sponsors {
@@ -206,5 +207,3 @@
     border-radius: 5%;
     margin-bottom: 0.5rem;
 }
-
-

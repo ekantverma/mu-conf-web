@@ -4,6 +4,7 @@
     justify-content: center;
     font-size: 25px;
     margin-bottom: 10px;
+    color: black;
 }
 
 .fac-positions {
@@ -22,6 +23,7 @@
     transition: transform 0.3s;
     transform: scale(1);
     transform: scale(1.05);
+    color: black;
 
 }
 
@@ -33,6 +35,7 @@
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 5px;
+    color: black;
 }
 
 .cards-show {

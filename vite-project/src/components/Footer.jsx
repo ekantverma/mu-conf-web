@@ -1,32 +1,32 @@
-import { FaEnvelope, FaPhone, FaGlobe } from "react-icons/fa";
 import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="footer-content">
-        <div className="footer-links">
-          <a href="mailto:info@manglayatan.in" className="footer-link">
-            <FaEnvelope className="footer-icon" />
-            <span>Email: info@manglayatan.in</span>
-          </a>
-          <a href="https://www.manglayatan.in/" target="_blank" rel="noopener noreferrer" className="footer-link">
-            <FaGlobe className="footer-icon" />
-            <span>Website</span>
-          </a>
-          <a href="tel:+1234567890" className="footer-link">
-            <FaPhone className="footer-icon" />
-            <span>Phone: +123 456 7890</span>
-          </a>
-        </div>
-        <div className="footer-developer">
-          <p>Developed By: <a href="https://www.linkedin.com/in/ekantverma" target="_blank" rel="noopener noreferrer">Ekant Verma</a></p>
-        </div>
+  <footer className="animated-footer">
+    <div className="footer-content">
+      <div className="university-details">
+        <h2>Manglayatan University, Aligarh</h2>
+        <ul>
+          <li>Email: <a href="mailto:info@mangalayatan.in">info@mangalayatan.in</a></li>
+          <li>Website: <a href="https://www.mangalayatan.in">www.mangalayatan.in</a></li>
+          <li>Phone: <a href="tel:+911234567890">+91 12345 67890</a></li>
+        </ul>
       </div>
-      <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} Manglayatan University. All rights reserved.</p>
+      <div className="developer-details">
+        <h2>Developed By Ekant Verma</h2>
+        <ul>
+          {/* <li>Follows On</li> */}
+          <li><a href="https://www.linkedin.com/in/ekantverma" target="_blank" rel="noopener noreferrer"> <i className="fa-brands fa-linkedin"></i> ekantverma</a></li>
+          <li><a href="https://github.com/ekantverma" target="_blank" rel="noopener noreferrer"> <i className="fa-brands fa-github"></i> ekantverma</a></li>
+          <li><a href="https://www.instagram.com/ekantverma_13/" target="_blank" rel="noopener noreferrer"> <i className="fa-brands fa-instagram"></i> ekantverma_13</a></li>
+        </ul>
       </div>
-    </footer>
+    </div>
+    <div className="copyright">
+      {/* <p>&copy; 2024 Manglayatan University. All rights reserved.</p> */}
+       <p>&copy; 2024 Ekant Verma developer. All rights reserved.</p> 
+    </div>
+  </footer>
   );
 }
 

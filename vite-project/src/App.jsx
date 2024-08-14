@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Faculty from './pages/Faculty';
 import Contact from './pages/Contact';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 function App() {
   return (
